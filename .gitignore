@@ -1,0 +1,74 @@
+# CMAKE (RAYLIB) **********************
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+
+# RAYLIB ******************************
+
+build
+*.log
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+# *.obj // USED IN GAME ASSETS !!!
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+# *.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+# *.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# TOOLS (IDE) ********************************
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.*
+*.sln
+
+# VSC
+.vscode/settings.json
+
+# IntelliJ
+.idea
+
+# Sonar
+.scannerwork
+
+# Cppcheck
+# *.cppcheck
+*-cppcheck-build-dir
+
+# Node (git cz)
+node_modules
+package.json
+package-lock.json
+
+# TOOLS (ASSETS) ********************************
+
+# Blender
+**/*.blend1
