@@ -8,6 +8,12 @@
 
 2025's exercise in game engine and logic modules.
 
+Spoiler: Don't do it !!! Unless you intend to build your own custom engine in the futur, or be able to maintain your code in 20+ years.
+
+Pros & Cons:
+- less dependency to engine
+- 
+
 ## Content
 
   - [Dependencies](#dependencies)
@@ -77,3 +83,31 @@ Repository layout:
     └── ci
 ```
 
+# Unreal 5
+
+## Create project
+
+1. start Unreal:
+    1. create project "MyGameUnreal5"
+    2. menu -> edit -> plugins -> add -> third party -> "MyGame"
+2. close Unreal
+3. start VisualStudio
+4. start Unreal
+
+## Usage
+
+1. start Unreal:
+    1. menu -> tools -> open visual studio
+2. VisualStudio:
+    1. code...
+    2. hot-reload code(Ctrl+Alt+F11)
+3. Unreal
+    1. play (Alt+P)
+    2. test...
+    3. detach camera / debug scene (F8)
+    4. press ESC
+
+
+- Unreal:
+  - [UE4 3rd party library plugin workaround (YouTube)](https://www.youtube.com/watch?v=LZr-IDTM294)
+  - [Adding custom third-party library to plugin from scratch](https://unrealcommunity.wiki/adding-custom-third-party-library-to-plugin-from-scratch-867b28)
